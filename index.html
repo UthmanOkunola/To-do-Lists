@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="bg-primary p-3 text-white">Todo list</header>
+    <div class="container">
+        <div class="card shadow bg-white p-4 border-0 mb-5">
+            <form action="" id="addform">
+                <div class="row justify-content-center">
+                    <div class="col">
+
+                        <input type="text" class='form-control' placeholder='Title' id="title_input">
+
+                    </div>
+                    <div class="col">
+
+                        <input type="text" class='form-control' placeholder='Note' id="note_input">
+
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-primary w-100" type="button" onclick="addNewlist();">Add</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+            
+        <div class="row" id="listContainer">
+            
+        </div>
+    </div>
+
+    <script>
+        // const arr=[1,2,3,4];
+        // arr.unshift(7);
+        // console.log(arr);
+
+
+        // const arr=['a','b','c','d'];
+        // const spliced = arr.splice(1,2);
+        // console.log(arr,spliced);
+
+
+        // const arr = [1, 2, 3, 4];
+        // const filterArr = arr.filter(function (x) {
+        //     return x < 4;
+        // });
+
+    </script>
+    <script src="../todolist/JS/index.js"></script>
+</body>
+
+</html>
